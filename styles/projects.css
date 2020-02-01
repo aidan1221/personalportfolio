@@ -1,19 +1,74 @@
+html{
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin-left: 100px;
+    font-weight: 10;
+    color:#ddd;
+}
+
 body {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background: linear-gradient(45deg, #333, #333, black);
+    height: 100%;
+    background-repeat: no-repeat;
+
+}  
+
+.home {
+    padding-top: 6px;
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    z-index: 2;
+}
+
+.home:hover {
+    color: #AAA;
+    background-color: rgb(26, 26, 26);
+    text-decoration: none;
 }
 
 
 .grid {
+    margin-left: 100px;
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    
+
 }
 
 .box {
-    height: 100px;
+    color: white;
     width: 300px;
     background-color: black;
     text-align: center;
-    padding-top: 60px;
+}
+
+.box1, .box2, .box3 {
+    padding-top: 45px;
+    height: 60px;
+}
+
+.box1:hover, .box2:hover, .box3:hover {
+    background-color: #333;
 }
 
 a {
