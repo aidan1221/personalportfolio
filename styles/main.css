@@ -125,4 +125,19 @@ li a {
 }
 li a:hover {
     color: #797c7a;
+    text-decoration: none;
+    background-color: #DDD;
+    border-radius: 5px;
+}
+
+
+.background-border {
+    position: absolute;
+    height: 600px;
+    width: 800px;
+    left: 80px;
+    top: 90px;
+    border: 2px solid white;
+    z-index: 0;
+    border-radius: 90px;
 }
