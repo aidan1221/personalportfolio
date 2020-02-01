@@ -4,14 +4,16 @@ body {
 .container {
     background-color: black;
     margin: 15px;
-    height: 650px;
-    width: 1390px;
 }
 
 .box {
     position: relative;
     height: 100px;
     width: 100px;
+}
+
+.box a:hover {
+    cursor: default;
 }
 
 .box1 {

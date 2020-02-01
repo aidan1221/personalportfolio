@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/contact.css" type="text/css" />
+    <title>Contact Form</title>
+</head>
+<body>
+    <a class="home" href="../index.html">Home</a>
+    <div class="contact">
+        <form action="#">
+            <div id="content">
+                <h1>Contact Form</h1>
+                <div id="name_email" class="contact-info">
+                    <label>Name <input class="input_text" type="text" name="name" maxlength="30" /></label>
+                    <br />
+                    <label>Email<input id="email-field" class="input_text" type="text" name="email" maxlength="100"></label>
+                </div>
+                <div id="radio-buttons" class="contact-school-info">
+                    <p>
+                        <input id="undergrad" type="radio" name="student_level" checked/><label for="undergrad">Undergrad</label><br />
+                        <input id="graduate" type="radio" name="student_level" /><label for="graduate">Graduate</label><br />
+                        <input id="other" type="radio" name="student_level" /><label for="other">Other</label>
+                    </p>
+                </div>
+                <div id="comments" class="contact-comments">
+                    <label>Comment<br />
+                        <textarea name="comment" cols="60" rows="10"></textarea>
+                    </label>
+                    <br>  
+                    <input id="submit" class="button" type="submit" name="submit">
+                    <input id="input" class="button" type="reset" name="reset">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
