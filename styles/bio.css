@@ -1,0 +1,68 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home {
+    padding-top: 7px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    z-index: 2;
+}
+
+.home:hover {
+    background-color: rgb(26, 26, 26);
+}
+
+h1 {
+    margin-top:50px;
+}
+
+table {
+  width: 500px;  
+}
+
+.bio {
+    padding: 10px;
+    width: 585px;
+    border: 1px solid black;
+    display: block;
+}
+p {
+    width: 500px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.soundcloud {
+    border-radius: 3px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 146, 13);
+}
+
+.soundcloud a {
+    display: block;
+    height: 20px;
+    width: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 8;
+    padding: 12px 15px;
+}
+
+.soundcloud:hover {
+    background-color: rgb(255, 146, 13, 0.5);
+    border: 1px solid black;
+    border-radius: 3px;
+}

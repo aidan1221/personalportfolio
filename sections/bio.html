@@ -5,20 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bio page</title>
+    <link rel="stylesheet" href="../styles/bio.css" type="text/css" />
 </head>
 <body>
     <h1><u>About Aidan Wolfe:</u></h1>
-    <a href="../3-portfolio.html">Home</a>
-    <p>
-        My name is Aidan Wolfe and I'm a CS grad student at Portland State University.<br>
-        I am a PCEP intern currently employed at Multnomah County.<br>
-        My hobbies right now are primarily electronic music production and working out. <br>
-        I have a pet chameleon named Avocado. <br><h4>Here is a picture of Avocado:</h4><br>
-        <img src="../images/avocado.jpg" name="Avocado pic" alt="an image of my chameleon Avocado" width="300" height="400"/>
-        <br>
-        <h4>Here is a picture of art made out of dead chameleons that I saw at OMSI:</h4><br>
-        <img src="../images/chameleons_art.jpg" name="Chameleon art" alt="A framed art piece made out of dead chameleons" width="300" height="400" />
-    </p>
-    <footer><a href="../3-portfolio.html">Home</a></footer>
+    <a class="home" href="../3-portfolio.html">Home</a>
+        <div class="bio">
+            <p>
+                My name is Aidan Wolfe and I'm a CS grad student at Portland State University.<br>
+                I am a PCEP intern currently employed at Multnomah County.<br>
+                My hobbies right now are primarily electronic music production and working out. <br>
+                I have a pet chameleon named Avocado. 
+            </p>
+        </div>
+        <table>
+            <thead>
+                <th>
+                    Here is a picture of Avocado:
+                </th>
+                <th>
+                    Here is a picture of art made out of dead chameleons that I saw at OMSI:
+                </th>
+            </thead>
+            <tbody>
+                <td>
+                    <img src="../images/avocado.jpg" name="Avocado pic" alt="an image of my chameleon Avocado" width="300" height="400"/>
+                </td>
+                <td>
+                    <img src="../images/chameleons_art.jpg" name="Chameleon art" alt="A framed art piece made out of dead chameleons" width="300" height="400" />
+                </td>
+            </tbody>
+        </table>
+        <div class="bio">
+            <p>
+                When I have spare time I enjoy producing electronic music. <br/>
+                You can find my work on my Soundcloud.
+                <div class="soundcloud">
+                    <a href="https://www.soundcloud.com/nor-sou" target="_blank" alt="a link to my soundcloud">NorSou</a>
+                </div>
+            </p>
+        </div>
 </body>
 </html>
