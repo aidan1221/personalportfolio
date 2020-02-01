@@ -5,37 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bio page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="../styles/bio.css" type="text/css" />
 </head>
 <body>
-    <h1><u>About Aidan Wolfe:</u></h1>
     <a class="home" href="../index.html">Home</a>
-        <div class="bio">
-            <p>
-                My name is Aidan Wolfe and I'm a CS grad student at Portland State University.<br>
-                I am a PCEP intern currently employed at Multnomah County.<br>
-                My hobbies right now are primarily electronic music production and working out. <br>
-                I have a pet chameleon named Avocado. 
-            </p>
-        </div>
-        <table>
-            <thead>
-                <th>
-                    Here is a picture of Avocado:
-                </th>
-                <th>
-                    Here is a picture of art made out of dead chameleons that I saw at OMSI:
-                </th>
-            </thead>
-            <tbody>
-                <td>
-                    <img src="../images/avocado.jpg" name="Avocado pic" alt="an image of my chameleon Avocado" width="300" height="400"/>
-                </td>
-                <td>
-                    <img src="../images/chameleons_art.jpg" name="Chameleon art" alt="A framed art piece made out of dead chameleons" width="300" height="400" />
-                </td>
-            </tbody>
-        </table>
+    <div class="container">
+        <section class="about row">
+            <div class="col-sm-12">
+                <h1><u>About Aidan Wolfe:</u></h1>
+            </div>
+            
+    
+            <div class=" col-sm-12 bio">
+                <p>
+                    My name is Aidan Wolfe and I'm a CS grad student at Portland State University.<br>
+                    I am a PCEP intern currently employed at Multnomah County.<br>
+                    My hobbies right now are primarily electronic music production and working out. <br>
+                    I have a pet chameleon named Avocado. 
+                </p>
+            </div>
+        </section>
+        
+        <section class="about-avo row">
+            <div class="col-sm-12">
+                <h1><u>About Avocado</u></h1>
+            </div>
+            <div class="col-sm-6">
+                <img src="../images/avocado.jpg" name="Avocado pic" alt="an image of my chameleon Avocado" width="300" height="400"/>
+            </div>
+            <div class="col-sm-6 avo-bio">
+                <p>
+                    Avocado is a 2 year old veiled chameleon, also known as a Yemen chameleon. This species of chameleon is interesting
+                    because it comes from a tropical rainforest located near the coast of Yemen (people are often surprised that such a 
+                    place exists). She can change the color of her skin, but it is a misconception to assume that this is for camoflauge 
+                    purposes. The natural tones of her skin are indeed meant for camoflauge, but the changes in the color of her skin are 
+                    actually a result of mood and environment rather than something actively undertaken for camoflauge.  
+                      
+                </p>
+            </div>
+        </section>
+        
+                    
+        
         <div class="bio">
             <p>
                 When I have spare time I enjoy producing electronic music. <br/>
@@ -45,5 +60,6 @@
                 </div>
             </p>
         </div>
+    </div>
 </body>
 </html>
